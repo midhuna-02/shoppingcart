@@ -1,0 +1,122 @@
+.cart-items{
+    margin: 30px auto;
+    width: 50%;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    border: 2px solid black;
+    height: 50px;
+}
+.cart-item-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-item-image{
+width: 100px;
+height: auto;
+margin-right: 10px;
+border: 2px solid black;
+}
+.cart-items-list{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 5%;
+}
+@media(max-width:767px){
+    .cart-items-list{
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: 5%;
+    }
+    .card {
+        width: 250px;
+        height: 380px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 40px 20px;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+    
+}
+.cart-item-name,
+.cart-item-functions{
+    width: 25%;
+}
+.add-cart-product,.remove-cart-product{
+    width: 30px;
+    margin-right: 15px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.add-cart-product{
+    background-color: red;
+}
+.remove-cart-product{
+    background-color: rgb(2, 54, 2);
+}
+.add-cart-product:hover{
+    transform: translateY(1.2px);
+}
+.remove-cart-product:hover{
+    transform: translateY(1.2px);
+}
+.cart-items-total-price-name{
+
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22%;
+    font-size: 20px;
+    font-weight: 700;
+    border-top: 2px solid black;
+}
+.cart-items-total-price{
+    display: flex;
+    padding-left: 45%;
+}
+.cart-clearance{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.clear-cart-btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(236, 4, 4);
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.clear-cart-btn:hover{
+    background-color: rgb(63, 63, 245);
+}
+
